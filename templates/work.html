@@ -1,0 +1,25 @@
+<ul class="skills">
+    <li ng-repeat="skill in skills" ng-class="{active: isSelectedSkill(skill)}">
+        <a href="/#/work/{{skill.key}}">{{skill.name}}</a>
+    </li>
+</ul>
+<div class="project" ng-repeat="project in projects | filter: isActiveSkillContainedWithinProject">
+    <div class="details">
+        <h2>{{project.projectName}}</h2>
+        <h3>{{project.companyName}}</h3>
+        <h4>{{project.position}}</h4>
+        <h4>{{project.dates}}</h4>
+        <div ng-if="project.projectLink">
+            <a href="{{project.projectLink}}" target="_blank">Project Link</a>
+        </div>
+        <div class="description">
+            <p ng-repeat="para in project.description">{{para}}</p>
+        </div>
+        <ul class="skills">
+            <li ng-repeat="skill in project.skills">
+                <a href="/#/work/{{skill}}">{{skill}}</a>
+            </li>
+        </ul>
+    </div>
+
+</div>

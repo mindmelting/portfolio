@@ -1,0 +1,27 @@
+{
+  "name": "Portfolio",
+  "version": "0.0.1",
+  "description": "Portfolio site for Direct Development Consulting",
+  "main": "js/init.js",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "connect": "~2.19.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-contrib-connect": "~0.8.0",
+    "grunt-csscomb": "~3.0.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mindmelting/portfolio"
+  },
+  "author": "PeerIndex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mindmelting/portfolio/issues"
+  },
+  "homepage": "https://github.com/mindmelting/portfolio"
+}

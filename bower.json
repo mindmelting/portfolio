@@ -1,0 +1,23 @@
+{
+  "name": "Portfolio",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mindmelting/portfolio",
+  "authors": [
+    "Lawrence Hunt <lawrence.hunt@gmail.com>"
+  ],
+  "description": "Boilerplate for a backbone/marionette/require project",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "js/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "https://github.com/twbs/bootstrap-sass.git",
+    "jquery": "~2.1.1",
+    "angular": "~1.2.24",
+    "angular-route": "~1.2.24"
+  }
+}
